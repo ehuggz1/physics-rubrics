@@ -29,6 +29,7 @@ Set up the foundational infrastructure for the ClusterCraft project including re
 - [ ] Required dependencies documented in requirements.txt
 - [ ] PostgreSQL database instance created (local/cloud)
 - [ ] Weaviate vector database instance set up
+- [ ] Google AntiGravity IDE configured as primary development environment
 - [ ] Environment variables configuration (.env template)
 - [ ] Pre-commit hooks configured (linting, formatting)
 - [ ] CI/CD pipeline basic setup (GitHub Actions)

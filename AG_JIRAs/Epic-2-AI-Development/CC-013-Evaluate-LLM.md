@@ -17,7 +17,7 @@ As a **technical lead**, I want to **evaluate available LLM options and select t
 
 ## Description
 
-Conduct comprehensive evaluation of leading LLM options (Gemini 3.0 Pro, Gemini 3.0 Deep Think, Claude 3.5 Sonnet, GPT-4 Turbo) based on reasoning capabilities, multimodal understanding, context window, cost, and performance on physics question generation tasks.
+Confirm performance of Gemini 3.0 Pro as the primary model for question generation, while benchmarking against Gemini 3.0 Deep Think and Claude 3.5 Sonnet to validate the architectural decision.
 
 ---
 

@@ -17,7 +17,7 @@ As a **technical lead**, I want to **set up Google AI Studio and Vertex AI acces
 
 ## Description
 
-Configure Google Cloud Platform project, enable necessary APIs, set up authentication, and establish development and production environments for Gemini 3.0 access.
+Configure Google Cloud Platform project and enable Vertex AI/AI Studio as the **Runtime API Provider** for the deployed application. This is distinct from the AntiGravity IDE used for development.
 
 ---
 

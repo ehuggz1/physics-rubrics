@@ -26,8 +26,8 @@ Initialize React project with TypeScript, configure build tools, set up routing,
 - [ ] React 18+ project created
 - [ ] TypeScript configured
 - [ ] React Router set up
-- [ ] State management configured (Context/Zustand)
-- [ ] UI library installed (Material-UI or Tailwind)
+- [ ] State management configured (Zustand)
+- [ ] UI library installed (Tailwind CSS + Shadcn/UI)
 - [ ] API client configured (Axios)
 - [ ] ESLint and Prettier configured
 - [ ] Project structure organized
