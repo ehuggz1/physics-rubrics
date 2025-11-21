@@ -252,9 +252,33 @@ graph TD
 
 **Tasks:**
 1. **Model Selection & Setup**
-   - Evaluate LLM options (GPT-4, Claude, Gemini)
+   - Evaluate LLM options (GPT-4, Claude 3.5, Gemini 3.0)
    - Set up RAG (Retrieval-Augmented Generation) architecture
    - Configure embedding models for standards search
+
+   **LLM Evaluation Matrix:**
+   
+   | Model | Reasoning | Multimodal | Context Window | Cost | Best For |
+   |-------|-----------|------------|----------------|------|----------|
+   | **Gemini 3.0 Pro** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 2M tokens | $$ | Multimodal understanding, complex reasoning |
+   | **Gemini 3.0 Deep Think** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 2M tokens | $$$ | Complex multi-step problems, advanced reasoning |
+   | **Claude 3.5 Sonnet** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 200K tokens | $$$ | Long-form reasoning, instruction following |
+   | **GPT-4 Turbo** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | 128K tokens | $$$ | General purpose, reliable |
+   | **Gemini 2.0 Flash** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | 1M tokens | $ | Speed, cost-effective multimodal |
+
+   **Recommendation:** **Gemini 3.0 Pro** or **Gemini 3.0 Deep Think**
+   
+   *Rationale:* 
+   - Released November 18, 2025, Gemini 3.0 is Google's most intelligent model to date
+   - **Best-in-class multimodal understanding** - can process text, images, diagrams, and graphs simultaneously (critical for physics problems)
+   - **Enhanced reasoning capabilities** - excels at complex, multi-step problem solving
+   - **Large context window (2M tokens)** - can process entire standards documents and sample clusters
+   - **Agentic capabilities** - better at following complex instructions and planning
+   - **Deep Think variant** - specifically designed for complex reasoning tasks like question generation
+   - **Cost-effective** - competitive pricing with superior performance
+   - **Native integration** - available via Google AI Studio and Vertex AI
+   
+   *Alternative:* Claude 3.5 Sonnet remains excellent for pure text-based reasoning and instruction following
 
 2. **Prompt Engineering**
    - Design system prompts for question generation
@@ -521,7 +545,7 @@ graph TB
     A[Application Layer] --> B[Web Interface]
     A --> C[API Service]
     
-    D[AI Layer] --> E[LLM - GPT-4/Claude/Gemini]
+    D[AI Layer] --> E[LLM - Gemini 3.0/Claude/GPT-4]
     D --> F[RAG System]
     D --> G[Embedding Model]
     
@@ -548,7 +572,7 @@ graph TB
 
 | Component | Technology Options | Recommendation |
 |-----------|-------------------|----------------|
-| **LLM** | GPT-4, Claude 3.5, Gemini Pro | Claude 3.5 Sonnet (best reasoning) |
+| **LLM** | Gemini 3.0 Pro, Claude 3.5, GPT-4 | **Gemini 3.0 Pro** (best multimodal + reasoning) |
 | **Vector DB** | Pinecone, Weaviate, Chroma | Weaviate (open source, flexible) |
 | **Backend** | Python FastAPI, Node.js | Python FastAPI (AI ecosystem) |
 | **Frontend** | React, Vue, Svelte | React (ecosystem maturity) |
