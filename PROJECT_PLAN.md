@@ -5,7 +5,7 @@
 **Goal:** When given the story-line component of a Stimulus and an array of Performance Expectation Standards (e.g., HS-PS2-1, HS-PS3-1, HS-PS3-2), generate 1-3 test questions where each question tests the students' reasoning abilities in each of the 3 reasoning dimension requirements as defined in the Performance Expectation Standards.
 
 **Date Created:** November 20, 2025
-**Last Updated:** November 20, 2025
+**Last Updated:** November 21, 2025
 
 ## System Architecture Overview
 
@@ -85,6 +85,7 @@ All questions must test student reasoning across three dimensions:
 - Patterns
 
 ### Dimension 3: Disciplinary Core Ideas (What Students Learn)
+- Applying instructions and learning provided by classroom instruction, textbooks, and homework
 - Topic-specific physics concepts from NYSSLS standards
 
 ### Three-Dimensional Integration Model
@@ -610,7 +611,8 @@ A successful implementation will:
 5. ✓ Produce questions at appropriate difficulty levels per NYS PLDs (Level 1-4)
 6. ✓ Generate scoring rubrics showing Level 1-4 criteria for each question
 7. ✓ Validate questions meet all dimensional and alignment requirements
-8. ✓ Follow cluster structure format (stimulus with 1-5 questions, building storylines)
+8. ✓ Follow cluster structure format (stimulus with 1-5 questions per stimulus, building storylines with 6-8 total questions per cluster)
+9. ✓ Ensure questions are suitable for NY State Regents Exam format and standards
 
 ## Technology Considerations
 
@@ -638,17 +640,31 @@ A successful implementation will:
 
 ## Key Definitions
 
-### Cluster
-A "story-line" composed of one or more real-world scenarios and related test questions which can be used in the Regents Exam. Each cluster consists of:
+### Regents Exams
+Regents Exams are standardized tests in New York State that assess high school students' knowledge in core subjects and are required for graduation. A Regents Exam is composed of 6 to 8 Clusters.
 
-- **Stimulus/Stimuli:** One or more sections building on the storyline
-  - Each stimulus includes: description, possibly graphs, tables, diagrams, and models
-  - A completed stimulus section includes 1-5 questions related to the stimulus
-- **Real-world scenario:** Situation where students apply scientific reasoning from Physics class
-- **Questions:** Up to 6-8 questions total related to the real-world scenario
-- **Additional scenarios:** May be included to create more detailed story-lines with additional questions
-- **Focus:** Each cluster focuses on one performance expectation as defined in NYSSLS Physics Standard, while including other related performance expectations
-- **Purpose:** Test students' ability to apply science and engineering practices using cross-cutting concepts from other related scientific ideas
+### Storyline
+Creates a real-world narrative description of an environment. A storyline consists of one or more stimulus creating a description of a real-world scenario the student is asked to explore using scientific reasoning.
+
+### Cluster
+A cluster is composed of a storyline and related test questions. Each Cluster establishes a "storyline" composed of "stimulus" which are descriptions of real-world scenarios, and related test questions which are examples of questions which can be used in the Regents Exam.
+
+- Clusters focus on one performance expectation as defined in the NYSSLS Physics Standard, while including other performance expectations related to the scenario
+- Clusters are designed to test students' ability to apply science and engineering practices using cross-cutting concepts which are from other related scientific ideas
+
+Each cluster consists of:
+
+### Stimulus/Stimuli
+One or more sections incrementally building a storyline.
+
+- Each Stimulus typically consists of: a description, some or none of a picture, graph(s), table(s), diagram(s), model(s), and questions
+- A stimulus description depicts a real-world situation or scenario to which the students are expected to apply scientific reasoning from their Physics class
+- A completed Stimulus section includes 1-5 questions related to the Stimulus
+- Additional related scenarios may be included in the Cluster to create a more detailed storyline
+- The additional scenarios will be accompanied by additional questions
+
+### Cluster Question Scope
+- **Questions:** Up to 6-8 questions total related to the real-world scenario across all stimuli in the cluster
 - **3-Dimensional Approach:** MUST test students' abilities across all three dimensions
 
 ## Notes
