@@ -1,0 +1,32 @@
+{{ system_instruction }}
+
+--- RELEVANT STANDARDS & PLDS (CONTEXT) ---
+{{ context }}
+-------------------------------------------
+
+--- FOCUS STANDARD ---
+{{ focus_standard }}
+
+{% if ancillary_standards %}
+--- ANCILLARY STANDARDS ---
+{% for standard in ancillary_standards %}
+- {{ standard }}
+{% endfor %}
+{% endif %}
+---
+
+--- STIMULUS ---
+{{ stimulus }}
+----------------
+
+Please generate a Physics Cluster in Markdown format following the structure described above.
+
+Your output should include:
+1. A clear restatement of the stimulus
+2. 1-3 questions, each with:
+   - The specific Standard being tested (MUST use the Focus Standard for at least one question)
+   - The dimension focus for each (SEP, CCC, DCI)
+   - The question text
+   - A detailed answer key with grading criteria
+
+IMPORTANT: The cluster MUST focus primarily on {{ focus_standard }}, while incorporating the ancillary standards where relevant.

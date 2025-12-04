@@ -1,0 +1,3 @@
+# Dependencies
+pyyaml>=6.0
+jinja2>=3.1.0

@@ -1,0 +1,70 @@
+---
+# AG-Simplified Configuration
+
+# Data Paths
+data:
+  base_path: ".."
+  standards_dir: "Physics Teaching Standards"
+  pld_dir: "Performance Level Descriptors"
+
+# Model Configuration
+model:
+  name: "gemini-1.5-flash"
+  temperature: 0.7
+  max_tokens: 8000
+  # API key should be set via environment variable: GEMINI_API_KEY
+
+# Search Configuration
+search:
+  # Default file extensions to include
+  extensions:
+    - "pdf"
+    - "mhtml"
+    - "txt"
+    - "md"
+  
+  # Enable caching of loaded documents
+  enable_cache: true
+  cache_dir: ".cache"
+
+# Output Configuration
+output:
+---
+# AG-Simplified Configuration
+
+# Data Paths
+data:
+  base_path: ".."
+  standards_dir: "Physics Teaching Standards"
+  pld_dir: "Performance Level Descriptors"
+
+# Model Configuration
+model:
+  name: "gemini-1.5-flash"
+  temperature: 0.7
+  max_tokens: 8000
+  # API key should be set via environment variable: GEMINI_API_KEY
+
+# Search Configuration
+search:
+  # Default file extensions to include
+  extensions:
+    - "pdf"
+    - "mhtml"
+    - "txt"
+    - "md"
+  
+  # Enable caching of loaded documents
+  enable_cache: true
+  cache_dir: ".cache"
+
+# Output Configuration
+output:
+  dir: "output"
+  format: "markdown"
+  include_metadata: true
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "clustercraft.log"

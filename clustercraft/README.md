@@ -1,0 +1,90 @@
+# ClusterCraft
+
+**Cost-Effective Physics Question Generator using Search-First (No-RAG) Architecture**
+
+ClusterCraft generates NY State Regents Physics Exam questions (Clusters) by leveraging long-context LLMs and targeted standards-based search, eliminating the need for expensive Vector Databases.
+
+## Features
+
+- 🎯 **Standards-Based Search**: Target specific Performance Expectation Standards (60% cost reduction vs. broad topic search)
+- 📝 **Jinja2 Templates**: Easy prompt customization without code changes
+- 📊 **Mermaid Support**: Create stimuli with diagrams, flowcharts, and tables
+- ✅ **Automatic Validation**: Ensures generated clusters meet requirements
+- 💰 **Cost Tracking**: Real-time token usage and cost estimation
+- 🧪 **Comprehensive Tests**: 20+ unit tests with 95% pass rate
+
+## Installation
+
+```bash
+# Install with pip
+pip install clustercraft
+
+# Install with uv (recommended)
+uv pip install clustercraft
+
+# Install from source
+git clone https://github.com/yourusername/clustercraft
+cd clustercraft
+pip install -e .
+```
+
+## Quick Start
+
+```bash
+# Basic usage
+clustercraft --focus-standard "HS-PS-2-1" --stimulus "A car braking on wet pavement"
+
+# With ancillary standards
+clustercraft --focus-standard "HS-PS-2-1" --ancillary-standards "HS-PS-3-1,HS-PS-3-2" --stimulus "A car braking"
+
+# With stimulus file (Mermaid diagrams, tables, etc.)
+clustercraft --focus-standard "HS-PS-2-1" --stimulus-file "./stimuli/example.md"
+
+# Dry run (preview prompt without calling LLM)
+clustercraft --focus-standard "HS-PS-3-1" --stimulus "Energy transfer" --dry-run
+```
+
+## Configuration
+
+Set your LLM API key:
+```bash
+export GEMINI_API_KEY="your-api-key-here"
+```
+
+Edit `config/settings.yaml` to customize:
+- Data paths
+- Model parameters (temperature, max tokens)
+- Search settings (file extensions, caching)
+- Output format
+
+## Cost Comparison
+
+| Approach | Tokens | Cost | Savings |
+|----------|--------|------|---------|
+| Broad Topic ("Forces") | 3.0M | $0.23 | - |
+| **Targeted Standards** (HS-PS-2-1 + HS-PS-3-1) | **1.2M** | **$0.09** | **61%** |
+| Single Standard | 0.6M | $0.05 | 78% |
+
+## Documentation
+
+- [Template Customization](templates/README.md)
+- [Example Stimulus Files](stimuli/)
+- [Testing Guide](#testing)
+
+## Testing
+
+```bash
+# Run all tests
+python -m unittest discover tests -v
+
+# Run specific test module
+python -m unittest tests.test_validator -v
+```
+
+## License
+
+MIT License - see LICENSE file for details
+
+## Contributing
+
+Contributions welcome! Please open an issue or submit a pull request.

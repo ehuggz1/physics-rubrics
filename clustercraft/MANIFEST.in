@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include clustercraft/config *.yaml
+recursive-include clustercraft/templates *.md *.j2
+recursive-include clustercraft/stimuli *.md
+recursive-include tests *.py

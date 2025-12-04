@@ -1,0 +1,248 @@
+2025-11-24 19:22:52,340 - ag-simplified - INFO - ==================================================
+2025-11-24 19:22:52,341 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:22:52,341 - ag-simplified - INFO - ==================================================
+2025-11-24 19:22:52,341 - ag-simplified - INFO - Topic: Forces
+2025-11-24 19:22:52,341 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:22:52,342 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:22:52,342 - ag-simplified.orchestrator - INFO - Starting cluster generation for topic: Forces
+2025-11-24 19:22:52,343 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:22:52,343 - ag-simplified.search - INFO - Searching for documents with keywords: ['Forces']
+2025-11-24 19:22:52,343 - ag-simplified.search - WARNING - Directory not found: .\Physics Teaching Standards
+2025-11-24 19:22:52,344 - ag-simplified.search - WARNING - Directory not found: .\Performance Level Descriptors
+2025-11-24 19:22:52,344 - ag-simplified.search - INFO - Found 0 documents
+2025-11-24 19:22:52,344 - ag-simplified.search - WARNING - No documents found for topic: Forces
+2025-11-24 19:22:52,344 - ag-simplified.orchestrator - INFO - Found 0 documents
+2025-11-24 19:23:20,130 - ag-simplified - INFO - ==================================================
+2025-11-24 19:23:20,131 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:23:20,131 - ag-simplified - INFO - ==================================================
+2025-11-24 19:23:20,131 - ag-simplified - INFO - Topic: Forces
+2025-11-24 19:23:20,131 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:23:20,131 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:23:20,132 - ag-simplified.orchestrator - INFO - Starting cluster generation for topic: Forces
+2025-11-24 19:23:20,132 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:23:20,132 - ag-simplified.search - INFO - Searching for documents with keywords: ['Forces']
+2025-11-24 19:23:20,133 - ag-simplified.search - INFO - Found 5 documents
+2025-11-24 19:23:20,212 - ag-simplified.orchestrator - INFO - Found 5 documents
+2025-11-24 19:23:20,213 - ag-simplified.orchestrator - INFO - Context size: 12272220 chars (~3068055 tokens)
+2025-11-24 19:23:20,213 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:23:20,219 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:23:20,219 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:23:21,726 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:23:21,727 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:23:21,729 - ag-simplified - INFO - Cluster saved to: output\cluster_forces_20251124_192321.md
+2025-11-24 19:29:37,559 - ag-simplified - INFO - ==================================================
+2025-11-24 19:29:37,559 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:29:37,559 - ag-simplified - INFO - ==================================================
+2025-11-24 19:29:37,559 - ag-simplified - INFO - Topic: Energy
+2025-11-24 19:29:37,560 - ag-simplified - INFO - Stimulus: A roller coaster car with a mass of 500kg starts at rest at the top of a 30m hill
+2025-11-24 19:29:37,560 - ag-simplified - INFO - Dry Run: True
+2025-11-24 19:29:37,560 - ag-simplified.orchestrator - INFO - Starting cluster generation for topic: Energy
+2025-11-24 19:29:37,561 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:29:37,561 - ag-simplified.search - INFO - Searching for documents with keywords: ['Energy']
+2025-11-24 19:29:37,562 - ag-simplified.search - INFO - Found 5 documents
+2025-11-24 19:29:38,274 - ag-simplified.orchestrator - INFO - Found 5 documents
+2025-11-24 19:29:38,274 - ag-simplified.orchestrator - INFO - Context size: 12218744 chars (~3054686 tokens)
+2025-11-24 19:29:38,275 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:29:38,285 - ag-simplified.orchestrator - INFO - Dry run mode - skipping LLM call
+2025-11-24 19:29:55,140 - ag-simplified - INFO - ==================================================
+2025-11-24 19:29:55,140 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:29:55,140 - ag-simplified - INFO - ==================================================
+2025-11-24 19:29:55,141 - ag-simplified - INFO - Topic: Waves
+2025-11-24 19:29:55,141 - ag-simplified - INFO - Stimulus: A student plucks a guitar string, producing a sound wave with a frequency of 440 Hz
+2025-11-24 19:29:55,141 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:29:55,142 - ag-simplified.orchestrator - INFO - Starting cluster generation for topic: Waves
+2025-11-24 19:29:55,142 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:29:55,142 - ag-simplified.search - INFO - Searching for documents with keywords: ['Waves']
+2025-11-24 19:29:55,143 - ag-simplified.search - INFO - Found 6 documents
+2025-11-24 19:29:55,690 - ag-simplified.orchestrator - INFO - Found 6 documents
+2025-11-24 19:29:55,691 - ag-simplified.orchestrator - INFO - Context size: 14438641 chars (~3609660 tokens)
+2025-11-24 19:29:55,691 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:29:55,701 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:29:55,702 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:29:57,209 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:29:57,209 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:29:57,225 - ag-simplified - INFO - Cluster saved to: output\cluster_waves_20251124_192957.md
+2025-11-24 19:35:14,444 - ag-simplified - INFO - ==================================================
+2025-11-24 19:35:14,444 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:35:14,445 - ag-simplified - INFO - ==================================================
+2025-11-24 19:35:14,445 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 19:35:14,445 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 19:35:14,445 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:35:14,446 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:35:14,446 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 19:35:14,447 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:35:14,447 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 19:35:14,448 - ag-simplified.search - INFO - Found 0 documents
+2025-11-24 19:35:14,449 - ag-simplified.search - WARNING - No documents found for standards: HS-PS-2-1, HS-PS-3-1
+2025-11-24 19:35:14,449 - ag-simplified.orchestrator - INFO - Found 0 documents
+2025-11-24 19:35:14,449 - ag-simplified.orchestrator - INFO - Context size: 0 chars (~0 tokens)
+2025-11-24 19:35:14,449 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:35:14,454 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:35:14,454 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:35:15,955 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:35:15,955 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:35:15,956 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_193515.md
+2025-11-24 19:36:46,845 - ag-simplified - INFO - ==================================================
+2025-11-24 19:36:46,846 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:36:46,846 - ag-simplified - INFO - ==================================================
+2025-11-24 19:36:46,846 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 19:36:46,846 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 19:36:46,847 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:36:46,847 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:36:46,848 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 19:36:46,848 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:36:46,848 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 19:36:46,849 - ag-simplified.search - INFO - Found 0 documents
+2025-11-24 19:36:46,849 - ag-simplified.search - WARNING - No documents found for standards: HS-PS-2-1, HS-PS-3-1
+2025-11-24 19:36:46,849 - ag-simplified.orchestrator - INFO - Found 0 documents
+2025-11-24 19:36:46,850 - ag-simplified.orchestrator - INFO - Context size: 0 chars (~0 tokens)
+2025-11-24 19:36:46,850 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:36:46,853 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:36:46,854 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:36:48,354 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:36:48,354 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:36:48,355 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_193648.md
+2025-11-24 19:36:58,978 - ag-simplified - INFO - ==================================================
+2025-11-24 19:36:58,978 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:36:58,978 - ag-simplified - INFO - ==================================================
+2025-11-24 19:36:58,978 - ag-simplified - INFO - Focus Standard: HS-PS2-1
+2025-11-24 19:36:58,979 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement
+2025-11-24 19:36:58,979 - ag-simplified - INFO - Dry Run: True
+2025-11-24 19:36:58,979 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS2-1
+2025-11-24 19:36:58,980 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:36:58,980 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS2-1']
+2025-11-24 19:36:58,981 - ag-simplified.search - INFO - Found 1 documents
+2025-11-24 19:36:59,003 - ag-simplified.orchestrator - INFO - Found 1 documents
+2025-11-24 19:36:59,003 - ag-simplified.orchestrator - INFO - Context size: 2536250 chars (~634062 tokens)
+2025-11-24 19:36:59,003 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:36:59,008 - ag-simplified.orchestrator - INFO - Dry run mode - skipping LLM call
+2025-11-24 19:37:32,507 - ag-simplified - INFO - ==================================================
+2025-11-24 19:37:32,508 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:37:32,508 - ag-simplified - INFO - ==================================================
+2025-11-24 19:37:32,509 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 19:37:32,509 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 19:37:32,509 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:37:32,509 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:37:32,510 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 19:37:32,510 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:37:32,511 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 19:37:32,512 - ag-simplified.search - INFO - Found 0 documents
+2025-11-24 19:37:32,513 - ag-simplified.search - WARNING - No documents found for standards: HS-PS-2-1, HS-PS-3-1
+2025-11-24 19:37:32,513 - ag-simplified.orchestrator - INFO - Found 0 documents
+2025-11-24 19:37:32,513 - ag-simplified.orchestrator - INFO - Context size: 0 chars (~0 tokens)
+2025-11-24 19:37:32,514 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:37:32,517 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:37:32,518 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:37:34,018 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:37:34,019 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:37:34,020 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_193734.md
+2025-11-24 19:37:44,544 - ag-simplified - INFO - ==================================================
+2025-11-24 19:37:44,545 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:37:44,545 - ag-simplified - INFO - ==================================================
+2025-11-24 19:37:44,545 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 19:37:44,545 - ag-simplified - INFO - Stimulus: test
+2025-11-24 19:37:44,545 - ag-simplified - INFO - Dry Run: True
+2025-11-24 19:37:44,546 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 19:37:44,546 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:37:44,546 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1']
+2025-11-24 19:37:44,547 - ag-simplified.search - DEBUG - Expanded keywords: ['HS-PS-2-1', 'HS-PS21']
+2025-11-24 19:37:44,548 - ag-simplified.search - INFO - Found 0 documents
+2025-11-24 19:37:44,548 - ag-simplified.search - WARNING - No documents found for standards: HS-PS-2-1
+2025-11-24 19:37:44,548 - ag-simplified.orchestrator - INFO - Found 0 documents
+2025-11-24 19:37:44,548 - ag-simplified.orchestrator - INFO - Context size: 0 chars (~0 tokens)
+2025-11-24 19:37:44,548 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:37:44,552 - ag-simplified.orchestrator - INFO - Dry run mode - skipping LLM call
+2025-11-24 19:38:07,738 - ag-simplified - INFO - ==================================================
+2025-11-24 19:38:07,738 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 19:38:07,739 - ag-simplified - INFO - ==================================================
+2025-11-24 19:38:07,739 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 19:38:07,739 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 19:38:07,739 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 19:38:07,739 - ag-simplified - INFO - Dry Run: False
+2025-11-24 19:38:07,740 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 19:38:07,740 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 19:38:07,740 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 19:38:07,742 - ag-simplified.search - INFO - Found 2 documents
+2025-11-24 19:38:07,769 - ag-simplified.orchestrator - INFO - Found 2 documents
+2025-11-24 19:38:07,769 - ag-simplified.orchestrator - INFO - Context size: 4979691 chars (~1244922 tokens)
+2025-11-24 19:38:07,769 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 19:38:07,776 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 19:38:07,776 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 19:38:09,279 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 19:38:09,279 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 19:38:09,281 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_193809.md
+2025-11-24 20:16:10,680 - ag-simplified - INFO - Loaded stimulus from file: ./stimuli/example_stimulus.md
+2025-11-24 20:16:10,681 - ag-simplified - INFO - ==================================================
+2025-11-24 20:16:10,681 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 20:16:10,681 - ag-simplified - INFO - ==================================================
+2025-11-24 20:16:10,682 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 20:16:10,682 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 20:16:10,682 - ag-simplified - INFO - Stimulus Source: File (./stimuli/example_stimulus.md)
+2025-11-24 20:16:10,682 - ag-simplified - INFO - Stimulus Length: 1010 characters
+2025-11-24 20:16:10,683 - ag-simplified - INFO - Dry Run: True
+2025-11-24 20:16:10,683 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 20:16:10,684 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 20:16:10,684 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 20:16:10,685 - ag-simplified.search - INFO - Found 2 documents
+2025-11-24 20:16:10,697 - ag-simplified.orchestrator - INFO - Found 2 documents
+2025-11-24 20:16:10,698 - ag-simplified.orchestrator - INFO - Context size: 4979691 chars (~1244922 tokens)
+2025-11-24 20:16:10,698 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 20:16:10,704 - ag-simplified.orchestrator - INFO - Dry run mode - skipping LLM call
+2025-11-24 20:18:18,434 - ag-simplified - INFO - Loaded stimulus from file: ./stimuli/example_stimulus.md
+2025-11-24 20:18:18,434 - ag-simplified - INFO - ==================================================
+2025-11-24 20:18:18,435 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 20:18:18,435 - ag-simplified - INFO - ==================================================
+2025-11-24 20:18:18,435 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 20:18:18,435 - ag-simplified - INFO - Stimulus Source: File (./stimuli/example_stimulus.md)
+2025-11-24 20:18:18,435 - ag-simplified - INFO - Stimulus Length: 1713 characters
+2025-11-24 20:18:18,436 - ag-simplified - INFO - Dry Run: True
+2025-11-24 20:18:18,436 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 20:18:18,437 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 20:18:18,437 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1']
+2025-11-24 20:18:18,438 - ag-simplified.search - INFO - Found 1 documents
+2025-11-24 20:18:18,444 - ag-simplified.orchestrator - INFO - Found 1 documents
+2025-11-24 20:18:18,444 - ag-simplified.orchestrator - INFO - Context size: 2536250 chars (~634062 tokens)
+2025-11-24 20:18:18,446 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 20:18:18,451 - ag-simplified.orchestrator - INFO - Dry run mode - skipping LLM call
+2025-11-24 20:20:54,550 - ag-simplified - INFO - ==================================================
+2025-11-24 20:20:54,550 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 20:20:54,550 - ag-simplified - INFO - ==================================================
+2025-11-24 20:20:54,550 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 20:20:54,551 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 20:20:54,551 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 20:20:54,551 - ag-simplified - INFO - Dry Run: False
+2025-11-24 20:20:54,552 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 20:20:54,552 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 20:20:54,552 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 20:20:54,553 - ag-simplified.search - INFO - Found 2 documents
+2025-11-24 20:20:54,566 - ag-simplified.orchestrator - INFO - Found 2 documents
+2025-11-24 20:20:54,566 - ag-simplified.orchestrator - INFO - Context size: 4979691 chars (~1244922 tokens)
+2025-11-24 20:20:54,566 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 20:20:54,572 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 20:20:54,573 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 20:20:56,076 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 20:20:56,076 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 20:20:56,076 - ag-simplified.orchestrator - INFO - Step 4: Validating generated cluster...
+2025-11-24 20:20:56,087 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_202056.md
+2025-11-24 20:21:42,919 - ag-simplified - INFO - ==================================================
+2025-11-24 20:21:42,920 - ag-simplified - INFO - AG-Simplified: Physics Question Generator
+2025-11-24 20:21:42,920 - ag-simplified - INFO - ==================================================
+2025-11-24 20:21:42,920 - ag-simplified - INFO - Focus Standard: HS-PS-2-1
+2025-11-24 20:21:42,920 - ag-simplified - INFO - Ancillary Standards: HS-PS-3-1
+2025-11-24 20:21:42,920 - ag-simplified - INFO - Stimulus: A 1000kg car comes to a stop on wet pavement, experiencing a deceleration of 8 m/s^2
+2025-11-24 20:21:42,920 - ag-simplified - INFO - Dry Run: False
+2025-11-24 20:21:42,921 - ag-simplified.orchestrator - INFO - Starting cluster generation for focus standard: HS-PS-2-1
+2025-11-24 20:21:42,921 - ag-simplified.orchestrator - INFO - Step 1: Searching for relevant documents...
+2025-11-24 20:21:42,921 - ag-simplified.search - INFO - Searching for documents with keywords: ['HS-PS-2-1', 'HS-PS-3-1']
+2025-11-24 20:21:42,923 - ag-simplified.search - INFO - Found 2 documents
+2025-11-24 20:21:42,936 - ag-simplified.orchestrator - INFO - Found 2 documents
+2025-11-24 20:21:42,937 - ag-simplified.orchestrator - INFO - Context size: 4979691 chars (~1244922 tokens)
+2025-11-24 20:21:42,938 - ag-simplified.orchestrator - INFO - Step 2: Building prompt...
+2025-11-24 20:21:42,948 - ag-simplified.orchestrator - INFO - Step 3: Generating cluster...
+2025-11-24 20:21:42,948 - ag-simplified.llm - INFO - Generating with gemini-1.5-flash
+2025-11-24 20:21:44,451 - ag-simplified.llm - INFO - Generation successful (attempt 1/3)
+2025-11-24 20:21:44,451 - ag-simplified.orchestrator - INFO - Generation complete
+2025-11-24 20:21:44,452 - ag-simplified.orchestrator - INFO - Step 4: Validating generated cluster...
+2025-11-24 20:21:44,452 - ag-simplified.orchestrator - WARNING - Validation issues found: 1 errors, 0 warnings
+2025-11-24 20:21:44,453 - ag-simplified.orchestrator - ERROR -   [X] Answer Keys: Only 0/3 questions have answer keys
+2025-11-24 20:21:44,454 - ag-simplified - INFO - Cluster saved to: output\cluster_hs-ps-2-1_20251124_202144.md
