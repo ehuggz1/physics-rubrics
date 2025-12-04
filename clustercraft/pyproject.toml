@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clustercraft"
+version = "0.1.0"
+description = "Cost-effective Physics Question Generator using Search-First (No-RAG) approach"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["physics", "education", "test-generation", "llm", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "pyyaml>=6.0",
+    "jinja2>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "flake8>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/clustercraft"
+Documentation = "https://github.com/yourusername/clustercraft#readme"
+Repository = "https://github.com/yourusername/clustercraft"
+Issues = "https://github.com/yourusername/clustercraft/issues"
+
+[project.scripts]
+clustercraft = "clustercraft.cli:main"
+
+[tool.setuptools]
+packages = ["clustercraft"]
+
+[tool.setuptools.package-data]
+clustercraft = [
+    "config/*.yaml",
+    "templates/*.md",
+    "templates/*.j2",
+]

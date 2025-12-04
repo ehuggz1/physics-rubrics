@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(tree:*)",
+      "Bash(pdftotext:*)",
+      "Bash(pdfinfo:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
